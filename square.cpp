@@ -1,3 +1,3 @@
 double square(double number) {
-    return number * number;
+    return 1 << (2 * number);
 }

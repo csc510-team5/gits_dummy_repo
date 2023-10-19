@@ -1,6 +1,8 @@
+import math
+
 def square(x):
     """
-    Squares a value x.
+    Squares a value x using the math library
     
     Args:
       x: numeric value.
@@ -8,4 +10,4 @@ def square(x):
     Returns:
       Value squared.
     """
-    return x*x
+    return math.pow(x, 2)

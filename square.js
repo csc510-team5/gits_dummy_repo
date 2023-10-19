@@ -1,3 +1,3 @@
 function square(n) {
-	return n * n;
+	return Math.pow(n, 2);
 }
