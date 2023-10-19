@@ -1,3 +1,5 @@
+#include <cmath>
+
 double square(double number) {
-    return number * number;
+    return pow(number, 2);
 }
