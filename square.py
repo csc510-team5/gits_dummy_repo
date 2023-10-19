@@ -1,11 +1,11 @@
-def square(x):
+def square(x: float) -> float:
     """
-    Squares a value x.
-    
+    Squares a value x using python power operator.
+
     Args:
       x: numeric value.
     
     Returns:
-      Value squared.
+      Value squared using python power operator.
     """
-    return x*x
+    return x**2
